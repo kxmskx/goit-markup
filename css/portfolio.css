@@ -1,0 +1,82 @@
+:root {
+  --brand-color: #2196f3;
+  --brand-font: "Roboto", Arial, sans-serif;
+}
+
+body {
+  font-family: var(--brand-font);
+}
+
+.header {
+  width: 1600px;
+  height: 80px;
+  border-bottom: solid 1px rgb(170, 170, 170);
+}
+
+.logo {
+  font-family: Raleway;
+  color: #000;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+  text-decoration: none;
+}
+
+.logo span {
+  color: var(--brand-color);
+}
+
+.navi a {
+  color: #212121;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+}
+
+.navi a:hover {
+  color: var(--brand-color);
+}
+
+.contact {
+  text-decoration: none;
+  color: #757575;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
+
+.contact:hover {
+  color: var(--brand-color);
+}
+
+.buttons {
+  padding-top: 10px;
+}
+
+.button {
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.48px;
+  width: 93px;
+  height: 38px;
+  flex-shrink: 0;
+  border: 4px;
+  border-radius: 4px;
+  background: #f5f4fa;
+}
+
+.button:hover {
+  color: #f5f4fa;
+  border-radius: 4px;
+  background: #2196f3;
+  /* shadow-middle */
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
