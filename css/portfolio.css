@@ -95,45 +95,56 @@ body {
 
 /* FOOTER */
 
-.foot {
+.footer {
   background: #2f303a;
   width: 1600px;
   height: 252px;
-  flex-shrink: 0;
 }
 
-.foot a {
-  font-family: Raleway;
-  color: #fff;
-  font-size: 26px;
-  font-weight: 700;
-  letter-spacing: 0.78px;
+.logo {
   text-decoration: none;
 }
 
-.foot span {
+.footer .logo-section {
   color: var(--brand-color);
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
 }
 
-address span.address {
+.footer .logo-section-second {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
+.footer .city-street {
   color: #fff;
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 171.429% */
+  line-height: 24px;
   letter-spacing: 0.42px;
 }
 
-address span.contact {
+.foot .contact {
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 171.429% */
+  line-height: 24px;
   letter-spacing: 0.42px;
 }
-address span.contact:hover {
-  color: #fff;
+
+.foot:hover .contact:hover {
+  color: var(--brand-color);
 }
