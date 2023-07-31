@@ -3,95 +3,6 @@
   --brand-font: "Roboto", Arial, sans-serif;
 }
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
 body {
   font-family: var(--brand-font);
   color: #212121;
@@ -174,8 +85,13 @@ body {
 .main-content {
   width: 1600px;
   height: 600px;
-  flex-shrink: 0;
+  flex-direction: column;
+  text-align: center;
   background: #2f303a;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .order {
@@ -195,12 +111,8 @@ body {
 }
 
 .title {
-  display: flex;
   width: 696px;
-  flex-direction: column;
-  flex-shrink: 0;
   color: #fff;
-  text-align: center;
   font-size: 44px;
   font-style: normal;
   font-weight: 900;
@@ -236,6 +148,8 @@ body {
   line-height: 24px;
   letter-spacing: 0.42px;
 }
+
+/* LOREM SECTION */
 
 .lorem__section {
   display: flex;
