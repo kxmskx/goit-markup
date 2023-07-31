@@ -23,7 +23,7 @@ body {
 
 .header__position {
   margin-top: 24px;
-  margin-bottom: 24px;
+  margin-bottom: 25px;
   display: flex;
 }
 
@@ -48,11 +48,7 @@ body {
   letter-spacing: 0.78px;
 }
 
-.navi {
-  flex-direction: row-reverse;
-}
-
-.navi a {
+.header__menu a {
   color: #212121;
   font-size: 14px;
   font-style: normal;
