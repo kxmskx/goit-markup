@@ -58,7 +58,7 @@ body {
   text-decoration: none;
 }
 
-.navi a:hover {
+.header__menu a:hover {
   color: var(--brand-color);
   font-size: 14px;
   font-style: normal;
