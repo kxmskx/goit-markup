@@ -14,22 +14,22 @@ body {
   margin-right: auto;
 }
 
+/* Logo and navi */
+
+.header {
+  border-bottom: 1px solid #ececec;
+  width: 100%;
+}
+
 .header__position {
-  background-color: #fff;
-  width: 1600px;
-  height: 80px;
-  flex-shrink: 0;
-  color: #757575;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: 0.28px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  display: flex;
 }
 
 .logo-title {
   color: #000000;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
@@ -46,6 +46,10 @@ body {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
+}
+
+.navi {
+  flex-direction: row-reverse;
 }
 
 .navi a {
@@ -174,6 +178,8 @@ body {
   margin-bottom: 30px;
   margin-top: 30px;
 }
+
+/* Workers section */
 
 /* footer */
 
