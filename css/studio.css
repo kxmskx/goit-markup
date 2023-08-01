@@ -25,16 +25,17 @@ body {
   padding-bottom: 94px;
 }
 
-/* Logo and navi */
+/* Logo, contact and navi */
 
 .header {
   border-bottom: 1px solid #ececec;
-  width: 100%;
+  display: flex;
+  max-width: 1600px;
+  max-height: 80px;
+  flex-shrink: 0;
 }
 
 .header__position {
-  margin-top: 24px;
-  margin-bottom: 25px;
   display: flex;
 }
 
@@ -47,6 +48,9 @@ body {
   line-height: normal;
   letter-spacing: 0.78px;
   text-decoration: none;
+  margin-top: 24px;
+  margin-bottom: 25px;
+  padding: 0px;
 }
 
 .logo-title .logo-section {
@@ -57,6 +61,21 @@ body {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
+}
+
+.header__menu {
+  font-weight: 500;
+  font-size: 14px;
+  list-style: none;
+  line-height: 1.14;
+  letter-spacing: 0.28px;
+  padding-left: 93px;
+  /* margin-top: 8px;
+  margin-bottom: 0px; */
+}
+
+.header__menu__list {
+  padding-right: 46px;
 }
 
 .header__menu a {
@@ -95,6 +114,42 @@ body {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+}
+
+.header__contact {
+  list-style: none;
+  padding-left: 219px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+.header__menu,
+.header__menu__list,
+.header__contact__item {
+  display: inline-block;
+}
+
+.header__contact__item {
+  margin-left: 50px;
+}
+
+.header__flex {
+  display: flex;
+}
+
+.header__contact__text {
+  text-decoration: none;
+  color: #757575;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.header__contact__text:hover {
+  color: var(--brand-color);
 }
 
 /* main-content */
