@@ -88,7 +88,7 @@ body {
 
 /* main-content */
 
-.main-content {
+.main__content {
   width: 1600px;
   height: 600px;
   flex-direction: column;
@@ -209,7 +209,7 @@ body {
   letter-spacing: 0.78px;
 }
 
-.footer .city-street {
+.footer .city__street {
   color: #fff;
   font-family: Roboto;
   font-size: 14px;
