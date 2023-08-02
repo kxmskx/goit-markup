@@ -67,6 +67,9 @@ body {
 
 .buttons {
   padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
 }
 
 .button {
@@ -182,9 +185,10 @@ body {
 }
 
 .app__container {
-  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .container__position {
-  align-items: center;
+  padding: 0;
 }
