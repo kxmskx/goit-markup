@@ -2,6 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
 }
 
 :root {
@@ -63,6 +64,11 @@ body {
   letter-spacing: 0.78px;
 }
 
+nav.navi {
+  display: flex;
+  align-items: center;
+}
+
 .header__menu {
   font-weight: 500;
   font-size: 14px;
@@ -116,11 +122,14 @@ body {
   letter-spacing: 0.28px;
 }
 
+.contact__display {
+  display: flex;
+  align-items: center;
+}
+
 .header__contact {
   list-style: none;
   padding-left: 219px;
-  margin-top: 8px;
-  margin-bottom: 0px;
 }
 
 .header__menu,
