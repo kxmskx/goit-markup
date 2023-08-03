@@ -87,7 +87,6 @@ nav.navi {
 .header__menu a {
   color: #212121;
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
@@ -97,7 +96,6 @@ nav.navi {
 .header__menu a:hover {
   color: var(--brand-color);
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
@@ -106,7 +104,6 @@ nav.navi {
 .contact {
   color: #757575;
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
@@ -116,7 +113,6 @@ nav.navi {
 .contact:hover {
   color: var(--brand-color);
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
@@ -149,9 +145,8 @@ nav.navi {
 .header__contact__text {
   text-decoration: none;
   color: #757575;
-  font-family: Roboto;
+  font-family: var(--brand-font);
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
@@ -179,7 +174,7 @@ nav.navi {
   color: #fff;
   text-align: center;
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: var(--brand-font);
   cursor: pointer;
   font-weight: 700;
   line-height: 30px;
@@ -198,7 +193,6 @@ nav.navi {
   width: 696px;
   color: #fff;
   font-size: 44px;
-  font-style: normal;
   font-weight: 900;
   line-height: 60px;
   letter-spacing: 2.64px;
@@ -209,7 +203,6 @@ nav.navi {
   color: #212121;
   text-align: center;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
@@ -229,7 +222,6 @@ nav.navi {
 .section p {
   color: #757575;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.42px;
@@ -323,7 +315,7 @@ nav.navi {
 
 .footer .city__street {
   color: #fff;
-  font-family: Roboto;
+  font-family: var(--brand-font);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -333,7 +325,7 @@ nav.navi {
 
 .foot .contact {
   color: rgba(255, 255, 255, 0.6);
-  font-family: Roboto;
+  font-family: var(--brand-font);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
