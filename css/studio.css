@@ -22,8 +22,8 @@ body {
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
 
 /* Logo, contact and navi */
@@ -245,8 +245,11 @@ nav.navi {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 30px;
   margin-top: 30px;
+}
+
+.lorem__container__section.container.section {
+  margin-bottom: 0px;
 }
 
 /* wa we do */
@@ -265,7 +268,6 @@ nav.navi {
   display: flex;
   justify-content: space-between;
   gap: 30px;
-  margin-top: 50px;
   margin-bottom: 94px;
   padding: 0px;
   /* flex-wrap: wrap; */
