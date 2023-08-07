@@ -20,7 +20,7 @@ body {
 /* HEADER */
 
 .header {
-  /* width: 1600px; */
+  width: 1600px;
   height: 80px;
   border-bottom: solid 1px rgb(170, 170, 170);
 }

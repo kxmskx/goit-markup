@@ -276,6 +276,10 @@ nav.navi {
   height: auto;
 }
 
+.team__margin.section.container {
+  margin-bottom: 0px;
+}
+
 .second-title {
   color: #212121;
   text-align: center;
@@ -326,6 +330,7 @@ nav.navi {
   border-radius: 5px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  margin-bottom: 94px;
 }
 
 .workers__list {
