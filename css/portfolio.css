@@ -162,7 +162,7 @@ body {
 /* TESTS */
 
 .container {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   justify-content: center;
   display: flex;
 }
@@ -192,8 +192,10 @@ body {
 .app__container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .container__position {
   padding: 0;
+  margin-top: 50px;
 }
