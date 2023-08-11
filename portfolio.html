@@ -18,19 +18,56 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__position">
-        <div class="logo__position">
-          <a href="studio.html" class="logo"
-            ><span class="first">Web</span>Studio</a
-          >
+      <div class="header__position container">
+        <a href="#" target="_blank" class="logo-title"
+          ><span class="logo-section">Web</span>Studio</a
+        >
+        <div class="header__flex">
+          <nav class="navi">
+            <ul class="header__menu">
+              <li class="header__menu__list">
+                <a class="header__menu__text" href="#" target="_blank"
+                  >Agencja</a
+                >
+              </li>
+              <li class="header__menu__list">
+                <a
+                  class="header__menu__text"
+                  href="portfolio.html"
+                  target="_blank"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="header__menu__list">
+                <a class="header__menu__text" href="#" target="_blank"
+                  >Kontakt</a
+                >
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Contact -->
+          <div class="contact__display">
+            <ul class="header__contact">
+              <li class="header__contact__item">
+                <a
+                  class="header__contact__text"
+                  href="mailto:info@devstudio.com"
+                >
+                  info@devstudio.com</a
+                >
+              </li>
+              <li class="header__contact__item">
+                <a class="header__contact__text" href="tel:+48111111111">
+                  <svg class="header__contact__icon" width="10" height="14">
+                    <use href="images/icons.svg#icon-telephone"></use>
+                  </svg>
+                  +48 111 111 111</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-        <nav class="navi">
-          <a href="#" target="_blank">Agencja</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="#" target="_blank">Kontakt</a>
-        </nav>
-        <a href="tel:+48111111111" class="contact">+48 111 111 111</a>
-        <a href="info@devstudio.com" class="contact">info@devstudio.com</a>
       </div>
     </header>
     <main>
@@ -41,7 +78,7 @@
         <button type="button" class="button">Dizajn</button>
         <button type="button" class="button">Marketing</button>
       </div>
-      <!-- To do: FIGURE BELOW INSTEAD OF IMG -->
+      <!-- To do: FIGURE BELOW INSTEAD OF IMG - done -->
       <div class="container">
         <div class="container__position">
           <ul class="app__container">
