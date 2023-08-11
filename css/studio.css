@@ -38,6 +38,7 @@ body {
 
 .header__position {
   display: flex;
+  /* margin: 0px 215px; */
 }
 
 .logo-title {
