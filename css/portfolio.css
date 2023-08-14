@@ -40,8 +40,9 @@ body {
   flex-shrink: 0;
 }
 
-.header__position {
+.container.header__position {
   display: flex;
+  justify-content: space-between;
 }
 
 .logo-title {
