@@ -256,13 +256,7 @@ nav.navi {
   color: var(--brand-color);
 }
 
-/* TESTS */
-
-.container {
-  /* max-width: 1200px; */
-  justify-content: center;
-  display: flex;
-}
+/* APP SECTION */
 
 .app__list {
   display: inline-block;
@@ -289,6 +283,7 @@ nav.navi {
   line-height: 30px;
   letter-spacing: 0.48px;
   padding-bottom: 20px;
+  padding-left: 24px;
 }
 
 .app__container {
