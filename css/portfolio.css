@@ -40,9 +40,8 @@ body {
   flex-shrink: 0;
 }
 
-.container.header__position {
+.header__position {
   display: flex;
-  justify-content: space-between;
 }
 
 .logo-title {
@@ -145,6 +144,7 @@ nav.navi {
 
 .header__flex {
   display: flex;
+  justify-content: space-between;
 }
 
 .header__contact__text {
@@ -218,8 +218,6 @@ nav.navi {
   padding-top: 8px;
 }
 
-/* PADDING? */
-
 .app__item__description {
   color: #757575;
   font-size: 16px;
@@ -234,6 +232,7 @@ nav.navi {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 82px;
 }
 
 .container__position {
@@ -242,8 +241,6 @@ nav.navi {
 }
 
 /* FOOTER */
-
-/* footer */
 
 .footer {
   background: #2f303a;
