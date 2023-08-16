@@ -14,8 +14,7 @@
 
 .container {
   min-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 .section {
@@ -42,6 +41,8 @@ body {
 
 .header__position {
   display: flex;
+  margin: 0px 215px;
+  width: 100%;
 }
 
 .logo-title {
@@ -84,7 +85,7 @@ nav.navi {
   margin-bottom: 0px; */
 }
 
-.header__menu__list {
+.header__menu__list:not(:last-child) {
   padding-right: 46px;
 }
 
@@ -145,6 +146,7 @@ nav.navi {
 .header__flex {
   display: flex;
   justify-content: space-between;
+  flex-grow: 1;
 }
 
 .header__contact__text {
