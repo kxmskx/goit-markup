@@ -167,6 +167,11 @@ nav.navi {
   flex-direction: column;
   text-align: center;
   background: #2f303a;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/background.jpg");
   display: flex;
   align-items: center;
   flex-direction: column;
