@@ -221,6 +221,17 @@ body {
 
 /* LOREM SECTION */
 
+.lorem__image__container {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background: #f5f4fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .section.h3 {
   color: #212121;
   font-size: 14px;
