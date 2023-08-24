@@ -351,7 +351,7 @@ body {
 .worker__card {
   background-color: #fff;
   width: 270px;
-  height: 368px;
+  height: 428px;
   border-radius: 5px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
@@ -363,6 +363,19 @@ body {
   list-style: none;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+/* social flex - no idea... */
+
+.social__list {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social__button {
   align-items: center;
 }
 
