@@ -345,7 +345,7 @@ body {
   line-height: 1.18;
   letter-spacing: 0.48px;
   padding-top: 5px;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 }
 
 .worker__card {
@@ -373,10 +373,20 @@ body {
   padding: 0px;
   display: flex;
   justify-content: space-around;
+  padding: 0px 32px; /* idk if needed */
+}
+
+.social__button:hover {
+  background-color: #2196f3;
 }
 
 .social__button {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 /* footer */
