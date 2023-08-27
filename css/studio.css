@@ -204,7 +204,7 @@ body {
 }
 
 .order__button:hover {
-  transition: 1s;
+  transition: 0.2s;
   color: black;
   background-color: rgb(255, 255, 255);
 }
@@ -393,6 +393,15 @@ body {
 
 .social__button:hover path {
   fill: #ffffff;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Our clients */
+
+.our__clients__box {
+  width: auto;
+  height: 372px;
+  background-color: #fff;
 }
 
 /* footer */
