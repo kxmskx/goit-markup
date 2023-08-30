@@ -450,6 +450,7 @@ body {
   height: 252px;
   padding-left: 215px;
   padding-top: 60px;
+  display: flex;
 }
 
 .logo {
@@ -502,4 +503,51 @@ body {
 
 .address__position {
   margin: 20px 0px;
+}
+
+.join__us {
+  display: inline-block;
+  margin-left: 70px;
+  margin-top: 12px;
+}
+
+.join__us__text {
+  font-family: var(--brand-font);
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+}
+
+.footer__social__list {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.footer__social {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
+
+.footer__socials__item {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__socials__item:hover {
+  background-color: var(--brand-color);
+}
+
+.footer__socials__item > a {
+  width: 20px;
+  height: 20px;
 }
