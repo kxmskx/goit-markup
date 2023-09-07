@@ -165,6 +165,15 @@ body {
   color: var(--brand-color);
 }
 
+.header__contact__item:hover svg {
+  fill: #2196f3;
+}
+
+.header__contact__icon {
+  margin-right: 10px;
+  fill: #757575;
+}
+
 /* main-content */
 
 .main__content {
@@ -207,7 +216,7 @@ body {
 .order__button:hover {
   transition: 0.2s;
   color: black;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(239, 239, 239);
 }
 
 .title {
@@ -551,3 +560,5 @@ body {
   width: 20px;
   height: 20px;
 }
+
+/* header contact icon, sprawdzić tekst i stylowanie do tej klasy, dodać svg inline w html  */
