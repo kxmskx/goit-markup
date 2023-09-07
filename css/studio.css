@@ -165,7 +165,7 @@ body {
   color: var(--brand-color);
 }
 
-.header__contact__item:hover svg {
+.header__contact__text:hover svg {
   fill: #2196f3;
 }
 
