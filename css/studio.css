@@ -29,10 +29,6 @@ body {
 
 .header {
   border-bottom: 1px solid #ececec;
-  /* display: flex;
-  width: 100%;
-  max-height: 80px;
-  flex-shrink: 0; */
 }
 
 .header__position {
@@ -79,8 +75,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.28px;
   padding-left: 93px;
-  /* margin-top: 8px;
-  margin-bottom: 0px; */
 }
 
 .header__flex {
@@ -112,23 +106,7 @@ body {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
-}
-
-.contact {
-  color: #757575;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: 0.28px;
-  text-decoration: none;
-}
-
-.contact:hover {
-  color: var(--brand-color);
-  font-size: 14px;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: 0.28px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact__display {
@@ -163,10 +141,12 @@ body {
 
 .header__contact__text:hover {
   color: var(--brand-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header__contact__text:hover svg {
-  fill: #2196f3;
+  fill: var(--brand-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header__contact__icon {
@@ -214,7 +194,7 @@ body {
 }
 
 .order__button:hover {
-  transition: 0.2s;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: black;
   background-color: rgb(239, 239, 239);
 }
@@ -496,14 +476,22 @@ body {
   letter-spacing: 0.42px;
 }
 
-.foot .contact {
-  color: rgba(255, 255, 255, 0.6);
-  font-family: var(--brand-font);
+.contact {
+  color: #757575;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.42px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+}
+
+.contact:hover {
+  color: var(--brand-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .foot:hover .contact:hover {
