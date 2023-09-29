@@ -77,6 +77,23 @@ body {
   padding-left: 93px;
 }
 
+.header__menu--active-page::after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 54px;
+  height: 4px;
+  flex-shrink: 0;
+  background: #2196f3;
+  border-radius: 2px;
+  top: 30px;
+  margin: auto;
+}
+
+.header__menu__spotlight--active-page {
+  color: var(--brand-color);
+}
+
 .header__flex {
   display: flex;
   flex-direction: row;
