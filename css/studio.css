@@ -594,4 +594,18 @@ body {
   height: 20px;
 }
 
-/* header contact icon, sprawdzić tekst i stylowanie do tej klasy, dodać svg inline w html  */
+/* MODAL / ADDONS / WIDGETS */
+
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal {
+  display: flex;
+  width: 100%;
+  min-width: 320px;
+  height: 581px;
+  background: #fff;
+}

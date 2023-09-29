@@ -19,6 +19,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="./modal.js"></script>
   </head>
 
   <body>
@@ -86,7 +87,9 @@
             EFEKTYWNE ROZWIĄZANIA<br />
             DLA WASZEGO BIZNESU
           </h1>
-          <button type="button" class="order__button">Zamów usługę</button>
+          <button type="button" class="order__button" data-modal-open>
+            Zamów usługę
+          </button>
         </div>
 
         <!-- Lorem section -->
@@ -958,5 +961,14 @@
         </div>
       </div>
     </footer>
+    <!-- MODAL -->
+    <div class="backdrop is-hidden">
+      <div class="modal">
+        <button class="modal__button-close" type="button" data-modal-close>
+          <svg></svg>
+        </button>
+      </div>
+    </div>
+    <!-- MODAL -->
   </body>
 </html>
