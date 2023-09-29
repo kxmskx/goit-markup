@@ -263,9 +263,13 @@ body {
 
 /* wa we do */
 
+.work__container {
+  position: relative;
+}
+
 .image__position {
   max-width: 1200px;
-  height: 386px;
+  height: 294px;
 }
 
 .image__list {
@@ -273,14 +277,37 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 30px;
-  margin-bottom: 94px;
   padding: 0px;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
+  margin: 0px;
 }
 
 .image__item {
+  height: 294px;
   flex-direction: row;
-  padding-bottom: 94px;
+  position: relative;
+}
+
+.work__description {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.image__list .work__description {
+  position: absolute;
+  bottom: 0px;
+  margin: 0;
 }
 
 /* Workers section */
@@ -368,6 +395,7 @@ body {
 
 .social__button:hover {
   background-color: #2196f3;
+  cursor: pointer;
 }
 
 .social__button {
