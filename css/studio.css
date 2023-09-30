@@ -614,8 +614,10 @@ body {
 }
 
 .modal {
+  width: 582px;
   display: flex;
-  width: 100%;
+  position: absolute;
+  /* width: 100%; */
   min-width: 320px;
   height: 581px;
   left: 50%;
@@ -625,4 +627,14 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  flex-direction: row-reverse;
+}
+
+.modal__button-close {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-top: 8px;
+  margin-right: 8px;
 }
