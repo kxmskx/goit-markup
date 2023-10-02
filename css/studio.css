@@ -63,7 +63,7 @@ body {
   letter-spacing: 0.78px;
 }
 
-.navi {
+nav.navi {
   display: flex;
   align-items: center;
 }
@@ -75,6 +75,10 @@ body {
   line-height: 1.14;
   letter-spacing: 0.28px;
   padding-left: 93px;
+}
+
+.header__menu__list:not(:last-child) {
+  padding-right: 46px;
 }
 
 .header__menu--active-page::after {
