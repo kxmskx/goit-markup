@@ -154,6 +154,11 @@ nav.navi {
   margin-left: 50px;
 }
 
+.header__contact__icon {
+  margin-right: 10px;
+  fill: #757575;
+}
+
 .header__contact__text {
   text-decoration: none;
   color: #757575;
