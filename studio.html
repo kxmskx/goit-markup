@@ -970,19 +970,38 @@
             <use href="images/sprite.svg#icon-close"></use>
           </svg>
         </button>
-        <form name="signup_form" autocomplete="on" novalidate>
-          <label>
-            Email
-            <input type="email" name="email" />
-          </label>
 
-          <label>
-            Password
-            <input type="password" name="password" />
-          </label>
-
-          <button type="submit">Submit</button>
-        </form>
+        <div class="form">
+          <p class="form_header">Zostaw swoje dane w formularzu</p>
+          <form>
+            <label class="form__label"
+              >Imię
+              <input
+                class="form__input"
+                id="fullname"
+                name="fullname"
+                type="text"
+              />
+              <svg class="form__icon" width="12px" height="12px">
+                <use href="/images/sprite.svg#icon-person"></use>
+              </svg>
+            </label>
+            <label class="form__label"
+              >Telefon
+              <input class="form__input" id="tel" name="tel" type="tel" />
+              <svg class="form__icon" width="12px" height="12px">
+                <use href="/images/sprite.svg#icon-tel"></use>
+              </svg>
+            </label>
+            <label class="form__label"
+              >E-mail
+              <input class="form__input" id="email" name="email" type="email" />
+              <svg class="form__icon" width="12px" height="12px">
+                <use href="/images/sprite.svg#icon-note"></use>
+              </svg>
+            </label>
+          </form>
+        </div>
       </div>
     </div>
     <script src="./js/modal.js"></script>

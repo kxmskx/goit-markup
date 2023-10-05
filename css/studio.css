@@ -625,7 +625,6 @@ nav.navi {
   width: 582px;
   display: flex;
   position: absolute;
-  /* width: 100%; */
   min-width: 320px;
   height: 581px;
   left: 50%;
@@ -650,4 +649,21 @@ nav.navi {
   border: 1px #bbb solid;
   background-color: #fff;
   padding-bottom: 1px; /* cant find where this shit is.. */
+}
+
+.form_header {
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 448px;
 }
