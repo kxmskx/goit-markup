@@ -3,6 +3,7 @@
 :root {
   --brand-color: #2196f3;
   --brand-font: "Roboto", Arial, sans-serif;
+  --animate-duration: 2s;
 }
 
 *,
