@@ -179,6 +179,7 @@ nav.navi {
 
 .main__content {
   width: 100%;
+  min-width: 320px;
   height: 600px;
   flex-direction: column;
   text-align: center;
@@ -190,6 +191,9 @@ nav.navi {
     url("../images/background.jpg");
   display: flex;
   align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   flex-direction: column;
   justify-content: center;
 }
