@@ -972,7 +972,7 @@
         </button>
 
         <div class="form">
-          <p class="form_header">Zostaw swoje dane w formularzu</p>
+          <p class="form_header">Zostaw swoje dane w formularzu poniżej</p>
           <form>
             <label class="form__label"
               >Imię
@@ -989,16 +989,24 @@
             <label class="form__label"
               >Telefon
               <input class="form__input" id="tel" name="tel" type="tel" />
-              <svg class="form__icon" width="12px" height="12px">
+              <svg class="form__icon" width="13px" height="13px">
                 <use href="/images/sprite.svg#icon-tel"></use>
               </svg>
             </label>
             <label class="form__label"
-              >E-mail
-              <input class="form__input" id="email" name="email" type="email" />
-              <svg class="form__icon" width="12px" height="12px">
-                <use href="/images/sprite.svg#icon-note"></use>
+              >Email
+              <input class="form__input" name="useremail" type="email" />
+              <svg class="form__icon" width="15" height="12">
+                <use href="images/sprite.svg#icon-note"></use>
               </svg>
+            </label>
+            <label class="form__label"
+              >Zostaw komentarz
+              <textarea
+                class="form__comment form__comment--text-visible"
+                name="comment"
+                placeholder="Wprowadź tekst"
+              ></textarea>
             </label>
           </form>
         </div>
