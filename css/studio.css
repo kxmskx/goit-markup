@@ -645,11 +645,15 @@ nav.navi {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  left: 543px;
-  margin-top: 8px;
+  left: 541px;
+  margin-top: 10px;
   border: 1px #bbb solid;
   background-color: #fff;
-  padding-bottom: 1px; /* cant find where this shit is.. */
+  padding-bottom: 3px; /* cant find where this shit is.. */
+}
+
+.modal__button-close:hover {
+  fill: var(--brand-color);
 }
 
 .form_header {
