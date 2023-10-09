@@ -981,6 +981,7 @@
                 id="fullname"
                 name="fullname"
                 type="text"
+                required
               />
               <svg class="form__icon" width="12px" height="12px">
                 <use href="/images/sprite.svg#icon-person"></use>
@@ -988,14 +989,25 @@
             </label>
             <label class="form__label"
               >Telefon
-              <input class="form__input" id="tel" name="tel" type="tel" />
+              <input
+                class="form__input"
+                id="tel"
+                name="tel"
+                type="tel"
+                required
+              />
               <svg class="form__icon" width="13px" height="13px">
                 <use href="/images/sprite.svg#icon-tel"></use>
               </svg>
             </label>
             <label class="form__label"
               >Email
-              <input class="form__input" name="useremail" type="email" />
+              <input
+                class="form__input"
+                name="useremail"
+                type="email"
+                required
+              />
               <svg class="form__icon" width="15" height="12">
                 <use href="images/sprite.svg#icon-note"></use>
               </svg>
@@ -1015,6 +1027,7 @@
                 type="checkbox"
                 name="agreement"
                 value="tak"
+                required
               />
               <svg class="form__checkmark-icon" width="11" height="8">
                 <use href="images/sprite.svg#icon-checkmark"></use>
@@ -1024,7 +1037,7 @@
               <span class="regulamin__text">Politykę Prywatności</span>.
             </label>
             <div class="modal__button__position">
-              <button class="modal__button-send" type="button">Wyślij</button>
+              <button class="modal__button-send" type="submit">Wyślij</button>
             </div>
           </form>
         </div>
