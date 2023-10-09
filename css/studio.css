@@ -649,7 +649,8 @@ nav.navi {
   margin-top: 10px;
   border: 1px #bbb solid;
   background-color: #fff;
-  padding-bottom: 3px; /* cant find where this shit is.. */
+  padding-top: 3px;
+  /* padding-bottom: 3px; cant find where this shit is.. */
 }
 
 .modal__button-close:hover {
@@ -762,6 +763,13 @@ nav.navi {
   text-decoration-line: underline;
 }
 
+.modal__button__position {
+  padding-top: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
 .modal__button-send {
   width: 200px;
   height: 50px;
@@ -770,9 +778,10 @@ nav.navi {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: #fff;
   border-color: transparent;
+  cursor: pointer;
 }
 
-/* poprawka */
+/* poprawka pozycji */
 
 .form__icon__fix {
   fill: #212121;
@@ -783,4 +792,32 @@ nav.navi {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* poprawka */
+/* checkbox zjebany */
+
+.form__regulamin,
+input[type="checkbox"] {
+  display: none;
+}
+
+.form__checkmark-icon {
+  cursor: pointer;
+  width: 16px;
+  height: 15px;
+  margin-right: 8px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  padding-left: 1px;
+  padding-top: 1px;
+  border: 1px solid #212121;
+}
+
+.form__label-check input:checked {
+  background-color: #2196f3;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form__checkbox:checked ~ .form__checkmark-icon {
+  background-color: #2196f3;
+  border-radius: 2px;
+  border-color: transparent;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

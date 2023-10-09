@@ -1008,18 +1008,24 @@
                 placeholder="Wprowadź tekst"
               ></textarea>
             </label>
-            <label class="form__label-checkbox">
+
+            <label class="form__label-check">
               <input
-                class="form__regulamin"
+                class="form__checkbox"
                 type="checkbox"
                 name="agreement"
                 value="tak"
               />
+              <svg class="form__checkmark-icon" width="11" height="8">
+                <use href="images/sprite.svg#icon-checkmark"></use>
+              </svg>
               Oświadczam iż akceptuję
               <span class="regulamin__text">Regulamin</span> i
               <span class="regulamin__text">Politykę Prywatności</span>.
             </label>
-            <button class="modal__button-send" type="button">Wyślij</button>
+            <div class="modal__button__position">
+              <button class="modal__button-send" type="button">Wyślij</button>
+            </div>
           </form>
         </div>
       </div>
