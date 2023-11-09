@@ -175,6 +175,16 @@ nav.navi {
   fill: #757575;
 }
 
+@media screen (max-width: 320px) {
+  .header__position {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 24px 15px;
+  }
+}
+
 /* main-content */
 
 .main__content {
